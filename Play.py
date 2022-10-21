@@ -8,9 +8,6 @@ class result(Enum):
 class play(object):
     #Representa una jugada 
 
-def beats (self):
-    return {Rock(), Spock()}
-
     def description(self):
         #Esta ahí para marcar la plantilla 
         pass
@@ -26,14 +23,6 @@ def beats (self):
         else: 
         #sino, gana othePlay(y pierdo yo) 
             return Result.pierde
-    #Dunders 
-    def __eq__(self,other):
-        """Devuelve True si self y Other son equivalentes """
-        pass 
-
-    def __hash__(self):
-    #Devuelve un hash que represente a self 
-        pass
 
 class Paper(play):
     def description(self):
